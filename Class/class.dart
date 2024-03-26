@@ -4,12 +4,11 @@ class Player {
   int xp, age;
 
   // 생성자
-  Player(
-      { // Dart에서 권장되는 Key:Value 쌍을 이용한 named constructor
+  Player({ // Dart에서 권장되는 Key:Value 쌍을 이용한 named constructor
       required this.name,
       required this.xp,
       required this.team,
-      required this.age});
+      required this.age,});
 
   // 생성자 생성2
   Player.createBluePlayer({
